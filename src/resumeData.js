@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https://markhays.github.io/MyPortfolio/",
-    "name": "Mark Hayss",
+    "name": "Mark Hays",
     "role": "Full Stack Developer",
     "linkedinId":"mark-hays-83683416a",
     "linkedinPage":"https://www.linkedin.com/in/mark-hays-83683416a/",
