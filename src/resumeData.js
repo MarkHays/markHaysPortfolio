@@ -90,7 +90,7 @@ let resumeData = {
       {
         "name":"Stock X",
         "description":"Stock X is a stock market simulation app.",  
-        "imgurl":"images/portfolio/stockx.png",
+        "imgurl":"images/portfolio/stockX_edited.jpg",
         "url":"https://lit-thicket-39018.herokuapp.com/"
       },
       {
