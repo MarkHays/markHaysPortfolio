@@ -29,24 +29,25 @@ export default class Header extends Component {
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
               <hr />
-              <ul className="social">
+              <p className="scrolldown">
+                <a className="smoothscroll" href="#portfolio">My Work</a>
+              </p>
+              {/* <ul className="social">
                 {
                   resumeData.socialLinks && resumeData.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer" ><i className={item.className}></i></a>
                       </li>
                     )
                   }
                   )
                 }
-              </ul>
+              </ul> */}
             </div>
           </div>
 
-          <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-          </p>
+
 
         </header>
       </React.Fragment>

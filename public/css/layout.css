@@ -65,11 +65,11 @@ header .banner-text h1 {
    text-shadow: 0px 5px 8px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 25px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -100,22 +100,21 @@ header .social li a:hover { color: #11ABB0; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   /* bottom: 30px; */
    left: 50%;
-   margin-left: -29px;
-   color: #fff;
+   margin-left: -58px;
+   color: black;
    display: block;
    height: 42px;
-   width: 42px;
-   font-size: 42px;
+   width: 100px;
+   font-size: 25px;
    line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
-
+   /* border-radius: 100%; */
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
+   background-color: white;
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
@@ -251,7 +250,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid black;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -326,25 +325,21 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .javascript {
-  	width: 68%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	width: 50%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 .react {
    width: 63%;
-   -moz-animation: photoshop 2s ease;
-   -webkit-animation: photoshop 2s ease;
+   -moz-animation: react 2s ease;
+   -webkit-animation: react 2s ease;
 }
 .node {
   	width: 70%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: node 2s ease;
+  	-webkit-animation: node 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
+
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
@@ -355,65 +350,54 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
-}
-
-@-moz-keyframes photoshop {
+/*IE*/
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 50%;  }
 }
-@-moz-keyframes reactjs {
+@-webkit-keyframes react {
    0%   { width: 0px;  }
-   100% { width: 60%;  }
+   100% { width: 63%;  }
  }
-@-moz-keyframes illustrator {
+
+ @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 40%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes node {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 40%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
+/*mozilla*/ 
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes react {
+    0%   { width: 0px;  }
+    100% { width: 63%;  }
+  }
+ 
+  @-moz-keyframes html5 {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+ 
+ @-moz-keyframes node {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+ @-moz-keyframes css {
+   0%   { width: 0px;  }
+   100% { width: 90%;  }
+ }
+
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -421,8 +405,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 159px;
+   padding-bottom: 144px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -430,7 +414,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: black;
 }
 
 /* Portfolio Content */
@@ -972,8 +956,9 @@ footer .copyright  li:first-child:before {
 /* social links */
 footer .social-links {
    margin: 18px 0 30px 0;
-   padding: 0;
+   padding: 109px;
    font-size: 30px;
+
 }
 footer .social-links li {
     display: inline-block;

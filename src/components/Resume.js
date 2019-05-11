@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../../node_modules/animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;

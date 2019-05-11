@@ -6,7 +6,7 @@ let resumeData = {
     "linkedinPage":"https://www.linkedin.com/in/mark-hays-83683416a/",
     "github": "https://github.com/MarkHays",
 
-    "roleDescription": "I love hiking, coding, video games - Let's connect & talk tech!",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -20,7 +20,7 @@ let resumeData = {
         },
        
       ],
-    "aboutme":"I have graduated from UC Berkeley Full Stack Developer Bootcamp. Now I am further continuing my education in Computer Science",
+    "aboutme":"I have graduated from UC Berkeley Full Stack Developer Bootcamp. Now I am further continuing my education in Computer Science. I love hiking, coding, video games - Let's connect & talk tech!",
     "address":"Reno, NV",
     "website":"https://markhays.github.io/MyPortfolio/",
     "education":[
@@ -55,7 +55,7 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
         "skillname":"HTML5"
