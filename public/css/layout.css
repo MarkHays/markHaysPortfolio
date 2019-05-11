@@ -102,11 +102,11 @@ header .scrolldown a {
    position: absolute;
    /* bottom: 30px; */
    left: 50%;
-   margin-left: -58px;
+   margin-left: -75px;
    color: black;
    display: block;
    height: 42px;
-   width: 100px;
+   width: 130px;
    font-size: 25px;
    line-height: 42px;
    /* border-radius: 100%; */
@@ -116,7 +116,10 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
    background-color: white;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { 
+   color: #FF7900; 
+   box-shadow: 5px 5px 6px black;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -996,5 +999,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { 
+   background-color: #F06000; 
+}
 
