@@ -9,10 +9,10 @@ export default class About extends Component {
     return (
       <section id="about">
          <div className="row">
-          <ScrollAnimation animateIn="slideInUp">
+          <ScrollAnimation animateIn="fadeInLeft">
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="markhays" />
+               <img className="profile-pic"  src="../images/profilePic_edited.jpg" alt="markhays" />
 
             </div>
          </ScrollAnimation>

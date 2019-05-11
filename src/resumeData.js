@@ -78,13 +78,13 @@ let resumeData = {
       {
         "name":"Clippit",
         "description":"Clippit is an appointment setting app.",
-        "imgurl":"images/portfolio/clippit.png",
+        "imgurl":"images/portfolio/clippit_edited.jpg",
         "url":"https://clippit-ucb.herokuapp.com/Home"
       },
       {
         "name":"Friend Finder",
         "description":"Friend Finder is meant to simulate a simple dating app.",
-        "imgurl":"images/portfolio/friendFinder.png",
+        "imgurl":"images/portfolio/friendFinder_edited.jpg",
         "url":"https://powerful-wave-55257.herokuapp.com/"
       },
       {
@@ -96,7 +96,7 @@ let resumeData = {
       {
         "name":"Eat-Da-Burger!",
         "description":"Eat-Da-Burger! is a restaurant app",
-        "imgurl":"images/portfolio/burger.png",
+        "imgurl":"images/portfolio/burger_edited.jpg",
         "url":"https://agile-fortress-83074.herokuapp.com/"
       }
     ],
