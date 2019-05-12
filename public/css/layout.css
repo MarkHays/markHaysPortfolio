@@ -102,14 +102,15 @@ header .scrolldown a {
    position: absolute;
    /* bottom: 30px; */
    left: 50%;
-   margin-left: -75px;
+   margin-left: -66px;
    color: black;
    display: block;
    height: 42px;
-   width: 130px;
+   width: 120px;
    font-size: 25px;
    line-height: 42px;
-   /* border-radius: 100%; */
+   border-radius: 5px;
+   box-shadow: 2px 2px 6px black;
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
