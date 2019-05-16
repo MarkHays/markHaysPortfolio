@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../../node_modules/animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -60,7 +61,7 @@ export default  class Resume extends Component {
             </div> 
          </div> */}
 
-
+<ScrollAnimation animateIn="slideInLeft">
          <div className="row skill">
 
             <div className="three columns header-col">
@@ -94,8 +95,9 @@ export default  class Resume extends Component {
    			</div>
 
          </div>
-
+         </ScrollAnimation>
       </section>
+      
     );
   }
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "../../node_modules/animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import { MDBAnimation } from "mdbreact";
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -26,12 +28,16 @@ export default class Header extends Component {
               <ScrollAnimation animateIn="bounceInDown">
                 <h1 className="responsive-headline">I am {resumeData.name}.</h1>
               </ScrollAnimation>
+              <ScrollAnimation animateIn="slideInRight">
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>I am a {resumeData.role}.{resumeData.roleDescription}
               </h3>
               <hr />
+              </ScrollAnimation>
+              <MDBAnimation type="bounce" count={4}>
               <p className="scrolldown">
                 <a className="smoothscroll" href="#portfolio">My Work</a>
               </p>
+              </MDBAnimation>
               {/* <ul className="social">
                 {
                   resumeData.socialLinks && resumeData.socialLinks.map(item => {
