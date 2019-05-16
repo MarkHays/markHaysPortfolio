@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { MDBAnimation } from "mdbreact";
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -7,10 +6,8 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-        <MDBAnimation type="bounceIn" reveal count={4}>
-          <h1>My Projects.</h1>
-          </MDBAnimation>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+         <h1>My Projects.</h1>
+           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(

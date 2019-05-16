@@ -33,7 +33,7 @@ export default class Header extends Component {
               </h3>
               <hr />
               </ScrollAnimation>
-              <MDBAnimation type="bounce" count={4}>
+              <MDBAnimation type="bounce" count={2}>
               <p className="scrolldown">
                 <a className="smoothscroll" href="#portfolio">My Work</a>
               </p>
